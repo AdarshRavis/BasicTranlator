@@ -16,6 +16,6 @@ if len(audio) > 0:
     wav_file.write(audio.tobytes())
 
 
-!whisper "Oh Captain My Captain by Walt Whitman.mp3" --model medium
+whisper "Oh Captain My Captain by Walt Whitman.mp3" --model medium
 
 print(result["text"])
