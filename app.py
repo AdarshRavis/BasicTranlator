@@ -1,7 +1,9 @@
 import streamlit as st
 from audiorecorder import audiorecorder
+pip install git+https://github.com/openai/whisper.git
 import whisper
 
+    
 model = whisper.load_model("large")
 
 st.title("Audio Recorder")
