@@ -12,5 +12,3 @@ if len(audio) > 0:
     wav_file = open("audio.mp3", "wb")
     wav_file.write(audio.tobytes())
 
-“–server.enableWebsocketCompression=false”,
-“–server.enableXsrfProtection=false”,
