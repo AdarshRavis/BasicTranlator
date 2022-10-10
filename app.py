@@ -1,8 +1,10 @@
+import os
+os.system("pip install git+https://github.com/openai/whisper.git")
 import streamlit as st
 from audiorecorder import audiorecorder
 import whisper
 
-    
+model = whisper.load_model("small")
 
 st.title("Audio Recorder")
 audio = audiorecorder("Click to record", "Recording...")
@@ -16,6 +18,6 @@ if len(audio) > 0:
     wav_file.write(audio.tobytes())
 
 
-whisper "audio.mp3" --model medium
+
 
 print(result["text"])
