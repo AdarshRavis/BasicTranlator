@@ -3,7 +3,6 @@ from audiorecorder import audiorecorder
 import whisper
 
     
-model = whisper.load_model("large")
 
 st.title("Audio Recorder")
 audio = audiorecorder("Click to record", "Recording...")
