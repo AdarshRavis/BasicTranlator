@@ -1,8 +1,10 @@
 import streamlit as st
 from audiorecorder import audiorecorder
 import whisper
+from keras.models import load_model
 
     
+model = whisper.load_model("base")
 
 st.title("Audio Recorder")
 audio = audiorecorder("Click to record", "Recording...")
