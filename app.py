@@ -4,6 +4,8 @@ import streamlit as st
 from io import BytesIO
 import streamlit.components.v1 as components
 
+“–server.enableWebsocketCompression=false”,
+“–server.enableXsrfProtection=false”,
 
 # pip install git+https://github.com/openai/whisper.git
 
