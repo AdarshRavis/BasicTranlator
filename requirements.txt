@@ -1,4 +1,2 @@
 streamlit-audiorecorder
 whisper
-keras.models
-tensorflow
