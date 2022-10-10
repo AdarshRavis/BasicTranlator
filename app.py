@@ -7,10 +7,6 @@ import streamlit.components.v1 as components
 “–server.enableWebsocketCompression=false”,
 “–server.enableXsrfProtection=false”,
 
-# pip install git+https://github.com/openai/whisper.git
-
-# import whisper
-# model = whisper.load_model("large")
 
 
 def audiorec_demo_app():
